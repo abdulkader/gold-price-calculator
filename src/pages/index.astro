@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Calculator from "../components/Calculator";
+---
+
+<Layout title="Welcome to Astro.">
+  <main class="block w-full">
+    <div
+      class="flex flex-1 w-full min-h-screen justify-center align-middle items-center flex-col"
+    >
+      <Calculator client:load />
+    </div>
+  </main>
+</Layout>
