@@ -28,7 +28,7 @@ export default function Calculator() {
   return (
     <form className="p-4 flex flex-col w-[500px] mx-auto">
       <div className="flex flex-nowrap justify-between items-center w-full">
-        <div className="w-1/2 block p-2">
+        <div className="w-full md:w-1/2 block p-2">
           <InputField
             name="goldPrice"
             id="goldPrice"
@@ -38,7 +38,7 @@ export default function Calculator() {
             onChange={onChange}
           />
         </div>
-        <div className="w-1/2 block p-2">
+        <div className="w-full md:w-1/2 block p-2">
           <InputField
             name="vat"
             id="vat"
@@ -50,7 +50,7 @@ export default function Calculator() {
         </div>
       </div>
       <div className="flex flex-nowrap justify-between items-center w-full">
-        <div className="w-1/2 block p-2">
+        <div className="w-full md:w-1/2 block p-2">
           <InputField
             name="makingCharge"
             id="makingCharge"
@@ -60,7 +60,7 @@ export default function Calculator() {
             onChange={onChange}
           />
         </div>
-        <div className="w-1/2 block p-2">
+        <div className="w-full md:w-1/2 block p-2">
           <InputField
             name="totalGram"
             id="totalGram"
@@ -70,7 +70,7 @@ export default function Calculator() {
             onChange={onChange}
           />
         </div>
-        <div className="w-1/2 block p-2">
+        <div className="w-full md:w-1/2 block p-2">
           <InputField
             name="totalPrice"
             id="totalPrice"
